@@ -1,5 +1,25 @@
-body remove all margin and padding
-main set padding to 16 pixels
-footer top and bottom padding to 24 pixels and left and right padding to 0 pixels
-img height of 200 pixels
-nav should have black, 1 pixel bottom order and padding all the way around of 16 pixels
+body{
+    margin:0;
+    padding:0;
+}
+
+main{
+    padding:16px;
+}
+
+footer{
+    padding-top:24px;
+    padding-left:0;
+    padding-right:0;
+}
+
+img{
+    height:200px
+}
+
+nav{
+    color:black;
+    border-bottom:1px;
+    padding:16px;
+}
+    
