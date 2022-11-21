@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
 body{
     margin:0;
     padding:0;
+    background-color:salmon;
 }
 
 main{
@@ -11,6 +16,9 @@ footer{
     padding-top:24px;
     padding-left:0;
     padding-right:0;
+    font-size: 25px;
+    font-family: 'Single Day', cursive;
+    background-color:pink ;
 }
 
 img{
@@ -18,7 +26,32 @@ img{
 }
 
 nav{
-    color:black;
+    font-family: 'Cantora One', sans-serif;
     border-bottom:1px;
     padding:16px;
+    background-color:pink;
+
+}
+
+a{
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+
+h1{
+    font-family: 'Yeon Sung', cursive;
+    color: darkgreen
+}
+
+.Everything{
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    display: grid;
+}
+
+table tbody tr:nth-child(even) {background:yellow
+}
+table tbody tr:nth-child(odd) {background: pink
 }
